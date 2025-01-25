@@ -57,7 +57,7 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-Para ver documentación de la API y comprobar que el proyecto ejecutó correctament, consulte http://localhost:3000/api
+Para ver documentación de la API y comprobar que el proyecto ejecutó correctamente, consulte http://localhost:3000/api
 
 # Configuración del Proyecto
 
