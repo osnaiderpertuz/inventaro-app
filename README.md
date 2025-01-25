@@ -32,6 +32,18 @@
 $ npm install
 ```
 
+## Migración BD
+
+Asegúrate de cambiar las configuraciones de conexión al la BD en el archivo ormconfig.ts (y en .env para ejecutar el proyecto)
+
+```bash
+# Generar migración (opcional)
+$ npm run migration:generate src/migrations/NombreDeMigracion
+
+# Ejecutar migración
+$ npm run migration:run
+```
+
 ## Compile and run the project
 
 ```bash
@@ -44,6 +56,25 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+
+Para ver documentación de la API y comprobar que el proyecto ejecutó correctament, consulte http://localhost:3000/api
+
+# Configuración del Proyecto
+
+Este proyecto utiliza variables de entorno para la configuración. Asegúrate de crear un archivo `.env` en la raíz del proyecto con las siguientes variables:
+
+## Variables de Entorno
+
+```env
+# Archivo .env
+
+DB_HOST=tu_localhost
+DB_PORT=tu_port_number
+DB_USERNAME=tu_usernama
+DB_PASSWORD=tu_contraseña
+DB_NAME=tu_bd_name
+DB_SYNC=true
+
 
 ## Resources
 
