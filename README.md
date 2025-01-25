@@ -74,7 +74,7 @@ DB_USERNAME=tu_usernama
 DB_PASSWORD=tu_contraseña
 DB_NAME=tu_bd_name
 DB_SYNC=true
-
+```
 
 ## Resources
 
